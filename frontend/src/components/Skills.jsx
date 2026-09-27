@@ -4,9 +4,9 @@ import { CodeIcon, GearIcon, DbIcon, WrenchIcon, StreamIcon, ChartIcon } from ".
 
 const ICONS = [CodeIcon, GearIcon, StreamIcon, DbIcon, WrenchIcon, ChartIcon];
 const FALLBACK = [
-  { group: "Languages", items: ["Python", "SQL"] },
-  { group: "Data Engineering", items: ["Apache Kafka", "Apache Airflow", "Pandas", "ETL Pipelines"] },
-  { group: "Databases", items: ["MongoDB", "Data Modeling"] },
+  { group: "Languages", items: ["Python", "SQL","Java"] },
+  { group: "Data Engineering", items: ["Apache Kafka", "Apache Airflow", "Pandas","Numpy", "ETL Pipelines"] },
+  { group: "Databases", items: ["MongoDB", "Data Modeling","PostgresSQL","SQLLite"] },
   { group: "Tools & Platforms", items: ["Git", "Docker", "Linux"] },
 ];
 
