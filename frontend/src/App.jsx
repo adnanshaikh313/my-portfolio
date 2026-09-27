@@ -9,9 +9,10 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Admin from "./components/Admin";
 import { ArrowUp } from "./components/icons";
+const API_BASE = "https://adnan-portfolio-api-jef5.onrender.com";
 
 export async function api(path, opts = {}) {
-  const res = await fetch(path, {
+  const res = await fetch(`${API_BASE}${path}`, {
     headers: { "Content-Type": "application/json" },
     ...opts,
   });
