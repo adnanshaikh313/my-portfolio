@@ -91,7 +91,7 @@ SEED_PROJECTS = [
             "Apache Kafka, transforms them with Python, and lands curated data in "
             "MongoDB for analytics."
         ),
-        "tech": ["Python", "Apache Kafka", "MongoDB"],
+        "tech": ["Python", "Apache Kafka", "Mongo DB"],
         "github": "",
         "demo": "",
         "sample": True,
